@@ -1,0 +1,78 @@
+<!DOCTYPE html >
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" >
+
+body {
+    background: linear - gradient(rgb(0, 0, 0,.0), rgb(255, 0, 0,.0)), url(1.jfif);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif-serif;
+}
+
+.from {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0,.3);
+
+}
+
+.from h1 {
+    margin: 30px 100px;
+    padding: 0;
+    text-align: center;
+    background: none;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.input-from {
+    margin: 15px 40px;
+    text-align: center;
+}
+
+.input-from input {
+     padding: 10px;
+     width: 100%;
+     color: #fff;
+     font-size: 20px; 
+     background: none;
+     outline: none;
+     border: 1px solid blue;
+     box-sizing: border-box;
+}
+
+.input-from input[type="text"]::after focus, .input-from input[type="password"]:focus {
+    border: 1px solid #0fc3f5:
+}
+
+.input-from input[type="submit"] {
+    margin-top: 20px;
+    color: #fff;
+    font-widht: bold;
+    text-transform: uppercase;
+    border: none;
+    background: #0fc3f5;
+    transition: .3s;
+}
+
+
+    .input-from input[type="submit"]:hover {
+        background: #4442db
+    }
+
+.from a {
+    display: block;
+    padding: 0 0 30px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.from a:hover {
+    color: #0fc3f5;
+}
+
+</html >
